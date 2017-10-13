@@ -1,0 +1,24 @@
+{
+"implicit_wait": 30,
+
+"screenshot_on_error": true,
+
+"default_browser": "chrome",
+
+"chromedriver_path": "./drivers/mac/chromedriver",
+
+"remote_url": "http://<username>:<access_key>@ondemand.saucelabs.com:80/wd/hub",
+
+"remote_browsers": {
+    "chrome_60_mac": {
+        "browserName": "chrome",
+        "version": "60.0",
+        "platform": "macOS 10.12"
+    },
+    "firefox_56_windows": {
+        "browserName": "firefox",
+        "version": "56.0",
+        "platform": "Windows 10"
+    }
+}
+}
